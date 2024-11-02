@@ -18,7 +18,7 @@ body {
     padding: 20px;
     background-color: #1a1a1a;
     color: #fff;
-    z-index: 10; /* Ensure it stays above other elements */
+    z-index: 10; 
 }
 /* Logo styling */
 .logo {
@@ -29,7 +29,7 @@ body {
 /* Navigation styling */
 .navigation {
     display: flex;
-    gap: 30px; /* Space between each link */
+    gap: 30px; 
 }
 
 .navigation a {
@@ -41,7 +41,7 @@ body {
 }
 
 .navigation a:hover {
-    color: #26a5ef; /* Hover color */
+    color: #26a5ef; 
 }
 
 /* Call-to-Action Button styling */
@@ -56,11 +56,11 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #0983fc; /*dark shade on hover */
+    background-color: #0983fc; 
 }
 /* Hero Section */
 .hero {
-    width: 100%; /* Make sure it stretches across the viewport */
+    width: 100%; 
     background: linear-gradient(rgba(157, 205, 239, 0.192), rgba(169, 207, 222, 0.272)), url("../images/construction site with new building and cranes vertical view Background.jpg");
     padding: 4em;
     background-size: cover;
@@ -111,7 +111,7 @@ body {
 }
 
 .primary-button:hover {
-    background-color: #359cc4; /* Darker shade on hover */
+    background-color: #359cc4; 
 }
 
 /* Secondary Button */
@@ -181,7 +181,7 @@ body {
     gap: 1em;
     max-width: 1300px;
     margin: 0 auto;
-    flex-direction: row; /* Default side-by-side */
+    flex-direction: row; 
 }
 
 /* Text Content */
@@ -287,7 +287,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: #26a5ef; /* Change color on hover */
+    color: #26a5ef; 
 }
 
 /* Contact Info Styling */
@@ -310,7 +310,7 @@ body {
 }
 
 .social-media a img:hover {
-    opacity: 0.7; /* Reduce opacity on hover */
+    opacity: 0.7; 
 }
 
 @media (max-width: 768px) {
@@ -331,7 +331,7 @@ body {
     }
 
     .testimonial-card {
-        width: 80%; /* Center testimonials with a smaller width on mobile */
+        width: 80%; 
     }
     .footer {
         flex-direction: column;
