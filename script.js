@@ -44,3 +44,7 @@ document.getElementById("get-started-button").addEventListener("click", function
     alert("Get started with BuildRight Construction!");
     window.location.href = "#"; // Replace "#" with the actual URL if needed
 });
+document.getElementById("hamburger-button").addEventListener("click", function() {
+    const navMenu = document.getElementById("nav-menu");
+    navMenu.style.display = navMenu.style.display === "flex" ? "none" : "flex";
+});

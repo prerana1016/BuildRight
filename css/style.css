@@ -7,6 +7,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #333;
 }
+h1, h2, h3, .logo {
+    font-family: 'Montserrat', sans-serif;
+}
 /* Header styling */
 .header {
     display: flex;
@@ -94,24 +97,22 @@ body {
     gap: 2.6em;
 }
 
-.primary-button, .secondary-button {
-    padding: 0.5em 2em;
-    font-size: 1.3em;
-    margin-top: 4em;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-/* Primary Button */
-.primary-button {
+.primary-button{
     background-color: #0883da;
     color: #ffffff;
+    border: none;
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    margin-top: 2em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.primary-button:hover {
-    background-color: #359cc4; /* Darker shade on hover */
+.primary-button:hover{
+    background-color: #359cc4;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Secondary Button */
@@ -119,10 +120,19 @@ body {
     background-color: #ffffff;
     color: #007BFF;
     border: 2px solid #007BFF;
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    margin-top: 2em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .secondary-button:hover {
     background-color: #ffffff;
+    color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .services {
@@ -312,6 +322,15 @@ body {
 .social-media a img:hover {
     opacity: 0.7; /* Reduce opacity on hover */
 }
+/* Hamburger button */
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
 
 @media (max-width: 768px) {
     .header, .about {
@@ -319,7 +338,21 @@ body {
         text-align: center;
     }
     .navigation {
-        display: none; 
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #1a1a1a;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .navigation a {
+        padding: 10px 0;
+        font-size: 1.2em;
+    }
+    .hamburger {
+        display: block;
     }
     .services {
         grid-template-columns: 1fr;
@@ -339,5 +372,13 @@ body {
     }
     .footer-links, .social-media {
         justify-content: center;
+    }
+    .hero {
+        background-size: contain;
+        background-position: top;
+    }
+    .about-image img {
+        max-width: 100%;
+        margin-top: 1em;
     }
 }
