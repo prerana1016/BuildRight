@@ -44,6 +44,16 @@ document.getElementById("get-started-button").addEventListener("click", function
     alert("Get started with BuildRight Construction!");
     window.location.href = "#"; // Replace "#" with the actual URL if needed
 });
+// "Privacy Policy"
+document.getElementById("privacy-policy").addEventListener("click", function() {
+    alert("Redirecting to the 'Privacy Policy' page");
+    window.location.href = "#"; // Replace "#" with the actual URL if needed
+});
+// "Terms of Service"
+document.getElementById("terms-of-service").addEventListener("click", function() {
+    alert("Redirecting to the 'Terms of Service' page");
+    window.location.href = "#"; // Replace "#" with the actual URL if needed
+});
 document.getElementById("hamburger-button").addEventListener("click", function() {
     const navMenu = document.getElementById("nav-menu");
     navMenu.style.display = navMenu.style.display === "flex" ? "none" : "flex";
