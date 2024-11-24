@@ -106,13 +106,13 @@ h1, h2, h3, .logo {
     margin-top: 2em;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(85, 161, 237, 0.374);
 }
 
 .primary-button:hover{
-    background-color: #359cc4;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: #02b7ff;
+    box-shadow: 0 8px 16px rgba(113, 213, 244, 0.541);
 }
 
 /* Secondary Button */
@@ -125,14 +125,14 @@ h1, h2, h3, .logo {
     margin-top: 2em;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.539);
 }
 
 .secondary-button:hover {
-    background-color: #ffffff;
-    color: #0056b3;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: #e9f5fe;
+    color: #228af3;
+    box-shadow: 0 8px 16px rgba(141, 193, 249, 0.676);
 }
 
 .services {
@@ -150,13 +150,13 @@ h1, h2, h3, .logo {
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.385);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.259);
 }
 
 /* Service Icon/Image */
