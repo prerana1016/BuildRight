@@ -21,7 +21,7 @@ h1, h2, h3, .logo {
     padding: 20px;
     background-color: #1a1a1a;
     color: #fff;
-    z-index: 10; /* Ensure it stays above other elements */
+    z-index: 10; 
 }
 /* Logo styling */
 .logo {
@@ -32,7 +32,7 @@ h1, h2, h3, .logo {
 /* Navigation styling */
 .navigation {
     display: flex;
-    gap: 30px; /* Space between each link */
+    gap: 30px; 
 }
 
 .navigation a {
@@ -44,7 +44,7 @@ h1, h2, h3, .logo {
 }
 
 .navigation a:hover {
-    color: #26a5ef; /* Hover color */
+    color: #26a5ef; 
 }
 
 /* Call-to-Action Button styling */
@@ -59,11 +59,11 @@ h1, h2, h3, .logo {
 }
 
 .cta-button:hover {
-    background-color: #0983fc; /*dark shade on hover */
+    background-color: #0983fc; 
 }
 /* Hero Section */
 .hero {
-    width: 100%; /* Make sure it stretches across the viewport */
+    width: 100%; 
     background: linear-gradient(rgba(157, 205, 239, 0.192), rgba(169, 207, 222, 0.272)), url("../images/construction site with new building and cranes vertical view Background.jpg");
     padding: 4em;
     background-size: cover;
@@ -110,9 +110,14 @@ h1, h2, h3, .logo {
     box-shadow: 0 4px 8px rgba(85, 161, 237, 0.374);
 }
 
+<<<<<<< HEAD
 .primary-button:hover{
     background-color: #02b7ff;
     box-shadow: 0 8px 16px rgba(113, 213, 244, 0.541);
+=======
+.primary-button:hover {
+    background-color: #359cc4; 
+>>>>>>> ac50084f4b22caa4b253b68cef2ea5dcc4a0b886
 }
 
 /* Secondary Button */
@@ -191,7 +196,7 @@ h1, h2, h3, .logo {
     gap: 1em;
     max-width: 1300px;
     margin: 0 auto;
-    flex-direction: row; /* Default side-by-side */
+    flex-direction: row; 
 }
 
 /* Text Content */
@@ -297,7 +302,7 @@ h1, h2, h3, .logo {
 }
 
 .footer-links a:hover {
-    color: #26a5ef; /* Change color on hover */
+    color: #26a5ef; 
 }
 
 /* Contact Info Styling */
@@ -320,7 +325,7 @@ h1, h2, h3, .logo {
 }
 
 .social-media a img:hover {
-    opacity: 0.7; /* Reduce opacity on hover */
+    opacity: 0.7; 
 }
 /* Hamburger button */
 .hamburger {
@@ -364,7 +369,7 @@ h1, h2, h3, .logo {
     }
 
     .testimonial-card {
-        width: 80%; /* Center testimonials with a smaller width on mobile */
+        width: 80%; 
     }
     .footer {
         flex-direction: column;
