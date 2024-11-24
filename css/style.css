@@ -110,14 +110,9 @@ h1, h2, h3, .logo {
     box-shadow: 0 4px 8px rgba(85, 161, 237, 0.374);
 }
 
-<<<<<<< HEAD
 .primary-button:hover{
     background-color: #02b7ff;
     box-shadow: 0 8px 16px rgba(113, 213, 244, 0.541);
-=======
-.primary-button:hover {
-    background-color: #359cc4; 
->>>>>>> ac50084f4b22caa4b253b68cef2ea5dcc4a0b886
 }
 
 /* Secondary Button */
